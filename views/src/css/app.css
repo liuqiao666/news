@@ -1,0 +1,201 @@
+@import url(https://static.yolotech.top/css/font-awesome.min.css);
+@font-face {
+  font-family: HelveticaNeueLTStd-Roman;
+  src: url('/fonts/HelveticaNeueLTStd-Roman.otf');
+}
+body {
+  font-family: HelveticaNeueLTStd-Roman, "等线 Light", "等线", "微软雅黑 Light", "微软雅黑";
+  margin: 0;
+}
+.content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  justify-content: space-between;
+  display: flex;
+  height: 64px;
+}
+.top>div {
+  display: flex;
+}
+.top>div>p {
+  font-size: 1.2rem;
+}
+.top>div>p>a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  height: 54px;
+  margin: 5px 6px 5px 42px;
+}
+.top-nav {
+  margin-right: 54px;
+}
+.top-nav>p {
+  font-size: 1.2rem;
+  margin-right: 36px;
+}
+.title {
+  position: relative;
+}
+.title img {
+  width: 100%;
+}
+.title-char {
+  position: absolute;
+  z-index: 10;
+  top: 15%;
+  left: 96px;
+}
+.title-char p {
+  font-size: 2.4rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.main {
+  display: flex;
+}
+.fun-list {
+  z-index: 20;
+  margin-top: -96px;
+  margin-left: 96px;
+  box-shadow: -5px 0px 5px #DDDDDD;
+  background-color: #FFFFFF;
+  height: 100%;
+  min-width: 320px;
+}
+.fun-list>div {
+  margin: 15px 0;
+  padding: 0px 36px;
+  min-height: 75px;
+}
+.fun-select {
+  padding-top: 8px;
+  cursor:pointer;
+  display: flex;
+  flex-direction: column;
+}
+.fun-select-cn {
+  margin-top: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.fun-select-en {
+  font-size: 1.3rem;
+}
+.main-content {
+  padding-right: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news {
+  border-bottom: 1px solid #EEEEEE;
+  margin-left: 36px;
+  display: flex;
+}
+.news-time {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-right: 16px;
+  padding-left: 8px;
+  color: #AE222D;
+}
+.news-date {
+  font-size: 2.6rem;
+  text-align: center;
+}
+.news-year {
+  font-size: 1.1rem
+}
+.news-title {
+  font-size: 1.5rem;
+}
+.news-summary {
+  color: #707070;
+}
+.pagin {
+  height: 80px;
+  text-align: center;
+  padding-top: 36px;
+}
+.pagin a{
+  text-decoration: none;
+  color: black;
+  cursor:pointer;
+}
+.pagin span{
+  color: #B8B8B8;
+}
+.main-details {
+  padding-right: 64px;
+  margin-left: 36px;
+}
+.detail-top {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #EEEEEE;
+}
+.detail-top>h2 {
+  text-align: center;
+}
+.detail-top>p {
+  text-align: right;
+}
+.detail-content {
+}
+.detail-link {
+  cursor:pointer;
+}
+.footer {
+  padding: 24px 96px;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: space-around;
+}
+.footer>div>h2 {
+  color: #006AB4;
+}
+.footer>div>ul {
+  list-style: none;
+  padding: 0;
+}
+.footer>div>ul>li>a {
+  text-decoration: none;
+  color: black;
+}
+
+.ftmsg {
+  padding-bottom: 24px;
+}
+.ftmsg>span{
+  color: #B8B8B8;
+}
+.selected-item {
+  background: linear-gradient(to right, #edd5d5 , #FFFFFF); /* 标准的语法 */
+  font-weight: bold;
+}
+.content-nodisplay {
+  display: none;
+}
+.return {
+  font-size: 1.2rem;
+  cursor:pointer;
+}
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+  transform: translateX(10px);
+  opacity: 0;
+}

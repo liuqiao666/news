@@ -1,0 +1,55 @@
+{
+  "name": "ce_news",
+  "version": "1.0.0",
+  "description": "ce news by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm run development",
+    "w": "npm run watch",
+    "prod": "npm run production",
+    "development": "webpack --hide-modules",
+    "watch": "webpack --watch --hide-modules",
+    "production": "webpack -p --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.yolostudio.cn:ce/news.git"
+  },
+  "author": "Theadore",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "jquery": "^3.2.1",
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "mongodb": "^2.2.27",
+    "vue": "^2.3.3",
+    "vue-infinite-scroll": "^2.0.1",
+    "vue-router": "^2.5.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.0",
+    "babel-loader": "^7.0.0",
+    "style-loader": "^0.18.0",
+    "css-loader": "^0.28.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "moment": "^2.18.1",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^12.0.4",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}

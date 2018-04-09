@@ -1,0 +1,22 @@
+[
+    {
+        "path": "news",
+        "title": "新闻通知",
+        "en": "News & Notification"
+    },
+    {
+        "path": "activity",
+        "title": "活动安排",
+        "en": "Events"
+    },
+    {
+        "path": "tech",
+        "title": "科技摘要",
+        "en": "Hack News"
+    },
+    {
+        "path": "story",
+        "title": "校园故事",
+        "en": "Campus Stories"
+    }
+]

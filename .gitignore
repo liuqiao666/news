@@ -1,0 +1,4 @@
+.DS_Store
+/node_modules/*
+/views/public/index.html
+/views/public/dist/*
